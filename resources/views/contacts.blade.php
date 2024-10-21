@@ -44,7 +44,7 @@ $contacts = [
         </h2>
     </header>
     <main>
-        <ul>
+        <ul class="card">
             @foreach ($contacts as $contact)
                 <li>
                     {{$contact['name']}}
